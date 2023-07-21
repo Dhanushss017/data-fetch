@@ -75,7 +75,7 @@ function displaySignin() {
             <p class="fw-600  mt-2 fs-18 mb-0  text_black">${userlogin.username} </p>
             <span class="fw-600  fs-16 mb-3 opacity-1 text_darkgrey">${userlogin.email}</span>
             </li>
-<li><a href="api.html" type="button" class="btn  br-20 fs-14 btn-danger">Sign Out</a>
+<li><a href="index.html" type="button" class="btn  br-20 fs-14 btn-danger">Sign Out</a>
 </li>
             </ul>
           </div>
