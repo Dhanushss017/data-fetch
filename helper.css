@@ -1,0 +1,46 @@
+.fs-14{
+    font-size: 14px;
+}
+.fs-16{
+    font-size: 16px;
+}
+.fs-18{
+    font-size: 18px;
+}
+.fs-24{
+    font-size: 24px;
+}
+.fs-26{
+    font-size: 26px;
+}
+.fs-30{
+    font-size: 30px;
+}
+.fs-60{
+    font-size: 60px;
+}
+.text_black{
+    color: black;
+}
+.text_grey{
+    color: rgb(66, 66, 66);
+}
+.text_darkgrey{
+    color: grey;
+}
+.fw-600{
+    font-weight: 600;
+}
+.ls-1{
+letter-spacing: 0.9px;
+}
+.br-20{
+    border-radius: 20px;
+}
+
+.mx_6{
+    margin: 1rem 5rem 1rem 5rem;
+}
+.opacity-1{
+    opacity: 0.70;
+}

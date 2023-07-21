@@ -1,0 +1,108 @@
+body,
+h1,
+h2,
+h3,
+p{
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.movie-search {
+  background-image: linear-gradient(90deg, #1b2430 0%, #879793 99.36%);
+  color: white;
+}
+
+.bg-banner{
+  background-image:   linear-gradient(45deg, #0B203D, #517069);
+  height: 100vh;
+}
+ul{
+  list-style-type: none;
+  padding: 3px;
+}
+li{
+  margin-bottom: 8px;
+  padding: 6px;
+  cursor: pointer;
+  font-size: 24px;
+  border-bottom: 1px solid silver;
+}
+.user-List{
+  height: 50vh;
+  overflow-y: auto;
+}
+.profile_img{
+width: 140px;
+border-radius: 50%;
+}
+.border_right{
+border-right:1px solid lightgrey;
+}
+.bg_blue{
+  background-image: linear-gradient(10deg, #597caa 0%, #475eec 99.36%);;
+
+}
+li:last-child{
+  border: none;
+}
+.border_grey{
+border-bottom: 2px solid #928f8f99;
+}
+.nav_tabs{
+  transform: translateY(30%);
+}
+.select_account{
+transform: translateY(30%);
+}
+.coming-soon{
+  transform: translateY(30%);
+}
+.vh_90{
+  height: 90vh;
+}
+.coming-soon{
+  transform: translateY(25vh);
+}
+.signed-in{
+  width: 40px;
+  border-radius: 50%;
+}
+.signed-User{
+position: absolute;
+right: 9%;
+top: 5%;
+}
+.img-aftersignin{
+width: 50px;
+border-radius: 50%;
+}
+.signed-incard{
+  box-shadow: 0px 0px 29px rgba(0, 0, 0, 0.10);
+}
+@media  (max-width: 1200px) {
+  .coming-soon{
+    transform: translateY(7vh);
+  }
+  .border_right{
+border-right: 0px;
+  }
+  .signed-User {
+    position: absolute;
+    right: 0%;
+    top: 10%;
+}
+}
+@media  (max-width: 767px) {
+  .nav_tabs{
+    transform: translateY(0%);
+  }
+  .border_grey{
+    border: 0px !important;
+  }
+  .vh_90{
+    height: auto;
+  }
+  .coming-soon{
+    transform: translateY(7vh);
+  }
+}
